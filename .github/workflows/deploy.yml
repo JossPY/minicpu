@@ -18,5 +18,4 @@ jobs:
       run: |
         cd ..
         cd ..
-        cd projet2
-        sudo node index.js
+        touch bonjour.js
