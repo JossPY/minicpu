@@ -22,3 +22,6 @@ jobs:
         cd ..
         cd projet2
         sudo node index.js
+        exit 
+
+      
