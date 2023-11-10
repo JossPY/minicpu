@@ -1,3 +1,4 @@
+
 name: Deploy workflow
 
 on:
@@ -14,5 +15,7 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run the application
-      run: sudo node index.js
+    - name: Run the application in the 'projet2' directory
+      run: |
+        cd projet2
+        sudo node index.js
