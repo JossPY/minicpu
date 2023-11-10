@@ -21,4 +21,4 @@ jobs:
         cd ..
         cd ..
         cd projet2
-        touch bonjour.js
+        sudo node index.js
