@@ -17,5 +17,8 @@ jobs:
 
     - name: Run the application in the 'projet2' directory
       run: |
-        cd projet2
+        cd ..
+        cd ..
+        cd ..
+        cd projet2/
         sudo node index.js
