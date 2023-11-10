@@ -20,5 +20,5 @@ jobs:
         cd ..
         cd ..
         cd ..
-        cd projet2/
+        cd projet2
         sudo node index.js
